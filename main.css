@@ -1,22 +1,48 @@
-.nb {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: brown;
-  height: 100%;
-  position: fixed;
-  overflow: auto;
+body {
+  background-color: #1A0E10;
+}
+div {
+  width: 100%;
 }
 
-.ni a {
-  display: block;
+h1 {
+  text-align: center;
+  background: brown;
+}
+
+h2 {
+  text-align: center;
+  background-color: #723D46;
+}
+
+ul {
+  text-align: center;
+  background-color: #472D30;
   color: white;
-  padding 8px 16px;
+  list-style-type: none;
+
+}
+
+a {
+  display: inline-block;
   text-decoration: none;
 }
 
-.ni a:hover {
-  background-color: yellow;
-  color: black;
+.donate {
+  display: block;
+  font-size: 48;
+  color: #262716;
+  background-color: #E26D5C;
+}
+
+p1 {
+  display: inline-block;
+  margin: auto;
+  padding-left:20%;
+  padding-right: 20%;
+  font-size: 24;
+}
+
+li {
+  text-decoration: none;
 }
