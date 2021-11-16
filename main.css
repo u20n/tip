@@ -2,13 +2,21 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 30%;
+  width: 25%;
   background-color: brown;
   height: 100%;
   position: fixed;
   overflow: auto;
 }
 
-.ni {
+.ni a {
+  display: block;
+  color: white;
+  padding 8px 16px;
+  text-decoration: none;
+}
 
+.ni a:hover {
+  background-color: yellow;
+  color: black;
 }
