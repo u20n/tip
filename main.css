@@ -7,7 +7,14 @@ div {
 }
 
 .ch {
-  background-image: url("tipis.jpg");
+  background-position: bottom, top;
+  background-image: url("header.jpg"), url("tipis.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat, repeat;
+}
+
+.ar {
+  background-image: url("blankets.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
